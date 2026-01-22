@@ -15,7 +15,7 @@ This skill provides Claude with deep knowledge of the Phantom Connect SDK ecosys
 - **React Native SDK**: `@phantom/react-native-sdk` for mobile apps  
 - **Browser SDK**: `@phantom/browser-sdk` for vanilla JS/TS
 - **Solana**: Full Solana blockchain support
-- **Auth Methods**: Social login (Google, Apple), browser extension, mobile deeplinks
+- **Auth Methods**: Social login (Google, Apple), browser extension
 
 ## When to Use This Skill
 
@@ -54,7 +54,6 @@ All integrations require:
 | `"injected"` | Phantom browser extension | No |
 | `"google"` | Google OAuth (embedded wallet) | Yes |
 | `"apple"` | Apple ID (embedded wallet) | Yes |
-| `"deeplink"` | Phantom mobile app | Yes |
 
 ### Supported Networks
 
@@ -72,7 +71,7 @@ function App() {
   return (
     <PhantomProvider
       config={{
-        providers: ["google", "apple", "injected", "deeplink"],
+        providers: ["google", "apple", "injected"],
         appId: "your-app-id",
         addressTypes: [AddressType.solana],
         authOptions: { redirectUrl: "https://yourapp.com/callback" },
@@ -124,7 +123,7 @@ For detailed implementation patterns, Claude should read these files:
 
 | Issue | Solution |
 |-------|----------|
-| "appId required" | Add appId from Phantom Portal when using google/apple/deeplink |
+| "appId required" | Add appId from Phantom Portal when using google/apple |
 | Redirect not working | Allowlist redirectUrl in Phantom Portal |
 | React Native crashes | Import `react-native-get-random-values` as FIRST import |
 | Extension not detected | Use `waitForPhantomExtension()` with timeout |

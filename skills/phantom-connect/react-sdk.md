@@ -18,7 +18,7 @@ import { AddressType } from "@phantom/browser-sdk";
 
 <PhantomProvider
   config={{
-    providers: ["google", "apple", "injected", "deeplink"],
+    providers: ["google", "apple", "injected"],
     appId: "your-app-id",
     addressTypes: [AddressType.solana],
     authOptions: {

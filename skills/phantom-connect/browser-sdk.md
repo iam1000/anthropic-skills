@@ -36,7 +36,7 @@ const sdk = new BrowserSDK({
 
 ```ts
 const sdk = new BrowserSDK({
-  providers: ["google", "apple", "injected", "deeplink"],
+  providers: ["google", "apple", "injected"],
   appId: "your-app-id",
   addressTypes: [AddressType.solana],
   authOptions: {
