@@ -1,0 +1,13 @@
+# Algorithmic Philosophy: Geometric Resonance
+
+## The Philosophy of Geometric Resonance
+
+Geometric Resonance is a computational aesthetic movement exploring the tension between perfect Platonic forms and the organic imperfections of physical reality. It posits that true beauty emerges not from static geometry, but from the dynamic interference patterns created when mathematical structures vibrate, collide, and resonate with one another. Each composition is a snapshot of a living system seeking equilibrium between rigid order and chaotic energy.
+
+At the core of this philosophy lies the concept of "Harmonic Interference." The algorithm initializes a series of fundamental geometric primitives—circles, polygons, lines—but treats them not as static shapes, but as wave emitters. These forms pulsate, expand, and contract according to precise mathematical ratios derived from the Golden Ratio (φ) and musical harmonic series. The visual output is the resulting interference pattern: regions of constructive interference creating intense luminosity and density, while destructive interference carves out voids of negative space.
+
+The system introduces "Stochastic Decay" to simulate the entropy of the natural world. While the underlying structure is mathematically perfect, the rendering process is subjected to a carefully tuned noise field that mimics the erosion of stone or the weathering of ancient diagrams. Lines are not drawn with uniform thickness but vary based on "energy" levels calculated from the resonance field. Colors are not chosen arbitrarily but emerge from the frequency of vibration, shifting from deep, dormant indigos to vibrant, high-energy ambers and cyans as the geometric tension increases.
+
+Crucially, the viewer is not a passive observer but an active participant in this "Parametric Tuning." The algorithm exposes control over the resonant frequencies, the decay rate, and the structural complexity. This reflects the philosophy's belief that the universe is a tuning fork, waiting for a conscious mind to strike it. The final image is a collaborative resonance between the cold precision of the machine's logic and the warm, intuitive choices of the human operator.
+
+Every execution of the algorithm is a unique performance. The "seed" value is the initial impulse—the Big Bang of this micro-universe. From that single number, the laws of Geometric Resonance unfold an entire history of expansion, interaction, and decay. The result is an artwork that feels ancient yet futuristic, a relic of a civilization that understood the secret language of vibration. It is a meticulously crafted visual hymnal to the mathematics of existence.

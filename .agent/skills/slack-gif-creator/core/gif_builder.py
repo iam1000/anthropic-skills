@@ -7,7 +7,7 @@ generated frames, with automatic optimization for Slack's requirements.
 """
 
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 import imageio.v3 as imageio
 import numpy as np
@@ -31,7 +31,7 @@ class GIFBuilder:
         self.fps = fps
         self.frames: list[np.ndarray] = []
 
-    def add_frame(self, frame: np.ndarray | Image.Image):
+    def add_frame(self, frame: Union[np.ndarray, Image.Image]):
         """
         Add a frame to the GIF.
 
@@ -51,7 +51,7 @@ class GIFBuilder:
 
         self.frames.append(frame)
 
-    def add_frames(self, frames: list[np.ndarray | Image.Image]):
+    def add_frames(self, frames: list[Union[np.ndarray, Image.Image]]):
         """Add multiple frames at once."""
         for frame in frames:
             self.add_frame(frame)
@@ -159,7 +159,7 @@ class GIFBuilder:
 
     def save(
         self,
-        output_path: str | Path,
+        output_path: Union[str, Path],
         num_colors: int = 128,
         optimize_for_emoji: bool = False,
         remove_duplicates: bool = False,
